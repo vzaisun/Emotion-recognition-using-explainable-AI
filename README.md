@@ -2,7 +2,6 @@
 
 Facial emotion recognition on FER2013 with Grad-CAM, plus an experiment that tests whether Grad-CAM reveals a shortcut the model is known to use.
 
-Final project for DSC 291: Interpretable Machine Learning, UC San Diego (Fall 2026). Vijay Sundar (vsundar@ucsd.edu)
 
 ## Notebooks
 
