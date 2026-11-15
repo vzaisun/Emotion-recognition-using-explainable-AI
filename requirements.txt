@@ -1,0 +1,10 @@
+# Colab already has all of these. Pins are for running locally (tested with Python 3.12).
+tensorflow==2.21.0
+keras==3.13.2
+numpy==2.5.4
+pandas==3.1.1
+scikit-learn==1.9.1
+scipy==1.18.1
+matplotlib==3.11.2
+seaborn==0.13.2
+kagglehub==1.0.3
