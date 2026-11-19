@@ -8,7 +8,7 @@ Facial emotion recognition on FER2013 with Grad-CAM, plus an experiment that tes
 | Notebook | What it does | Colab |
 |---|---|---|
 | `Emotion_recognition_using_gradcam.ipynb` | Trains a CNN on FER2013, evaluates it, and visualizes Grad-CAM (examples, per-class average maps, layer comparison) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/vzaisun/Emotion-recognition-using-explainable-AI/blob/main/Emotion_recognition_using_gradcam.ipynb) |
-| `Gradcam_shortcut_experiment.ipynb` | Plants a shortcut marker in the training data and checks whether Grad-CAM finds it; also runs a weight-randomization sanity check and a pixel-deletion test | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/vzaisun/Emotion-recognition-using-explainable-AI/blob/main/Gradcam_shortcut_experiment.ipynb) |
+| `Gradcam_shortcut_experiment_updated.ipynb` | Plants a shortcut marker in the training data and checks whether Grad-CAM finds it; also runs a weight-randomization sanity check and a pixel-deletion test | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/vzaisun/Emotion-recognition-using-explainable-AI/blob/main/Gradcam_shortcut_experiment_updated.ipynb) |
 
 ## The experiment
 
