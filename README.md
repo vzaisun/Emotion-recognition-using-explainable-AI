@@ -41,7 +41,7 @@ Main findings:
 ## How to run
 
 1. Open a notebook in Colab and select a GPU runtime (Runtime > Change runtime type > T4 GPU).
-2. **Data:** FER2013 from Kaggle. The shortcut notebook downloads `deadskull7/fer2013` automatically through `kagglehub` if `CSV_PATH` doesn't exist. The main notebook expects the CSV path set in `CSV_PATH`. Both `fer2013.csv` and `icml_face_data.csv` work as they are.
+2. **Data:** FER2013 from Kaggle. The shortcut notebook downloads `deadskull7/fer2013` automatically through `kagglehub` if `CSV_PATH` doesn't exist. The main notebook downloads it with the Kaggle CLI (`!kaggle datasets download`), so you need your Kaggle API key (`kaggle.json`) set up in Colab. Both `fer2013.csv` and `icml_face_data.csv` work as they are.
 3. Run all cells. The main notebook takes about 20–30 minutes. The shortcut experiment trains three models, about 50 minutes in total. Its models are saved to Google Drive, so a re-run skips models that already finished.
 
 Requirements: TensorFlow 2.x with Keras 3, NumPy, pandas, scikit-learn, SciPy, matplotlib, seaborn. All are preinstalled on Colab.
